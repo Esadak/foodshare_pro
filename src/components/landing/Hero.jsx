@@ -1,9 +1,10 @@
 import React from "react";
-import { Image } from "@/components/ui/image";
 import { Download } from "lucide-react";
 
-// Hero section: headline, subheading, download CTA and a phone mockup visual.
-export default function Hero({ phoneImage }) {
+/**
+ * @param {{ heroImage?: string }} props
+ */
+export default function Hero({ heroImage }) {
   return (
     <section id="top" className="relative pt-28 pb-20 sm:pt-36 sm:pb-28 overflow-hidden">
       {/* Soft blue ambient glow */}
@@ -34,10 +35,10 @@ export default function Hero({ phoneImage }) {
         {/* Right: phone mockup */}
         <div className="flex justify-center md:justify-end">
           <div className="relative w-[260px] sm:w-[300px] aspect-[9/16] rounded-[2rem] border border-primary/40 shadow-[0_0_60px_-15px_rgba(0,123,255,0.6)] overflow-hidden bg-card">
-            <Image
-              src={phoneImage}
-              alt="Foodshare-appen på en mobiltelefon"
-              className="w-full h-full object-cover"
+            <img 
+              src={heroImage || "/hero-mockup.png"} 
+              className="w-full h-full object-cover" 
+              alt="Foodshare app mockup" 
             />
           </div>
         </div>

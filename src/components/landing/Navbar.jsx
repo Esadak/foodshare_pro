@@ -28,7 +28,7 @@ export default function Navbar() {
       <nav className="mx-auto max-w-6xl px-5 sm:px-8 h-16 flex items-center justify-between">
         {/* Logo */}
         <a href="#top" className="flex items-center gap-2 text-white font-semibold text-lg">
-          <span className="grid place-items-center w-9 h-9 rounded-xl bg-primary text-primary-foreground">
+          <span className="grid place-items-center w-9 h-9 rounded-xl bg-primary text-white">
             <UtensilsCrossed className="w-5 h-5" />
           </span>
           Foodshare
@@ -40,7 +40,7 @@ export default function Navbar() {
             <li key={l.href}>
               <a
                 href={l.href}
-                className="text-muted-foreground hover:text-white transition-colors text-sm font-medium"
+                className="text-gray-300 hover:text-white transition-colors text-sm font-medium"
               >
                 {l.label}
               </a>
@@ -51,7 +51,7 @@ export default function Navbar() {
         {/* Desktop CTA */}
         <a
           href="#ladda-ner"
-          className="hidden md:inline-flex items-center justify-center rounded-full bg-primary px-5 py-2.5 text-sm font-semibold text-primary-foreground transition-transform duration-200 hover:scale-105 hover:brightness-110"
+          className="hidden md:inline-flex items-center justify-center rounded-full bg-blue-600 px-5 py-2.5 text-sm font-semibold text-white transition-transform duration-200 hover:scale-105 hover:bg-blue-700"
         >
           Ladda ner
         </a>
@@ -75,7 +75,7 @@ export default function Navbar() {
                 <a
                   href={l.href}
                   onClick={() => setOpen(false)}
-                  className="block py-2 text-muted-foreground hover:text-white transition-colors"
+                  className="block py-2 text-gray-300 hover:text-white transition-colors"
                 >
                   {l.label}
                 </a>
@@ -85,7 +85,7 @@ export default function Navbar() {
               <a
                 href="#ladda-ner"
                 onClick={() => setOpen(false)}
-                className="mt-2 inline-flex w-full items-center justify-center rounded-full bg-primary px-5 py-3 text-sm font-semibold text-primary-foreground"
+                className="mt-2 inline-flex w-full items-center justify-center rounded-full bg-blue-600 px-5 py-3 text-sm font-semibold text-white hover:bg-blue-700"
               >
                 Ladda ner
               </a>

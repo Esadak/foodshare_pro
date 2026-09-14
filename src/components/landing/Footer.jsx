@@ -12,7 +12,7 @@ export default function Footer() {
             <span className="grid place-items-center w-9 h-9 rounded-xl bg-primary text-primary-foreground">
               <UtensilsCrossed className="w-5 h-5" />
             </span>
-            Foodshare
+            Foodshare.se
           </a>
 
           {/* Contact */}
@@ -20,7 +20,7 @@ export default function Footer() {
             <Mail className="w-4 h-4" />
             <span>Support: </span>
             <a href="mailto:support@foodshare.se" className="text-primary hover:brightness-125 transition">
-              support@foodshare.se
+              foodshare@gmail.com
             </a>
           </div>
 

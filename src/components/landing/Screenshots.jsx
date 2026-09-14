@@ -1,26 +1,33 @@
 import React from "react";
-import { Image } from "@/components/ui/image";
 
-// App screenshots grid — placeholders with rounded corners and a blue accent.
-export default function Screenshots({ images }) {
+/**
+ * @param {{ images?: string[] }} props
+ */
+export default function Screenshots({ images = [] }) {
+  if (!images || images.length === 0) {
+    return null;
+  }
+
   return (
-    <section className="py-20 sm:py-28">
-      <div className="mx-auto max-w-6xl px-5 sm:px-8">
-        <h2 className="text-3xl sm:text-4xl font-bold text-white text-center">
+    <section className="py-16 sm:py-20">
+      <div className="mx-auto max-w-5xl px-4 sm:px-6">
+        <h2 className="text-2xl sm:text-3xl font-bold text-white text-center mb-12">
           Se appen i aktion
         </h2>
 
-        <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          {images.map((src, i) => (
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 justify-items-center">
+          {images.slice(0, 3).map((src, i) => (
             <div
               key={i}
-              className="aspect-[9/16] rounded-2xl overflow-hidden border-2 border-primary/40 shadow-[0_0_40px_-15px_rgba(0,123,255,0.5)] bg-card transition-transform duration-300 hover:scale-[1.03]"
+              className="w-full max-w-[240px] rounded-2xl overflow-hidden border border-gray-700 shadow-2xl bg-gray-900"
             >
-              <Image
-                src={src}
-                alt={`Foodshare app skärm ${i + 1}`}
-                className="w-full h-full object-cover"
-              />
+              <div className="aspect-[9/16]">
+                <img 
+                  src={src} 
+                  className="w-full h-full object-cover" 
+                  alt={`Skärmdump ${i + 1}`} 
+                />
+              </div>
             </div>
           ))}
         </div>
