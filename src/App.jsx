@@ -1,5 +1,18 @@
-import Home from '@/pages/Home'
+import React from "react";
+import Home from "@/pages/Home";
+import Privacy from "@/pages/Privacy";
+import Terms from "@/pages/Terms";
 
 export default function App() {
-  return <Home />
+  const path = window.location.pathname;
+
+  if (path === "/privacy") {
+    return <Privacy />;
+  }
+  
+  if (path === "/terms") {
+    return <Terms />;
+  }
+
+  return <Home />;
 }
