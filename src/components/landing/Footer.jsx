@@ -49,9 +49,9 @@ export default function Footer() {
           <div>
             <h3 className="text-sm font-semibold text-white uppercase tracking-wider mb-4">Kontakt</h3>
             <ul className="space-y-2 text-sm text-muted-foreground">
-              <li>Support: support@foodshare.se</li>
-              <li>Privacy: privacy@foodshare.se</li>
-              <li>Legal: legal@foodshare.se</li>
+              <li>Support: foodshare.service@gmail.com</li>
+              <li>Privacy:foodshare.service@gmail.com</li>
+              <li>Legal: foodshare.service@gmail.com</li>
             </ul>
           </div>
 
