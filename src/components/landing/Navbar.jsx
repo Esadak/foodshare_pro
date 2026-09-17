@@ -50,11 +50,13 @@ export default function Navbar() {
 
         {/* Desktop CTA */}
         <a
-          href="#ladda-ner"
-          className="hidden md:inline-flex items-center justify-center rounded-full bg-blue-600 px-5 py-2.5 text-sm font-semibold text-white transition-transform duration-200 hover:scale-105 hover:bg-blue-700"
-        >
-          Ladda ner
-        </a>
+  href="https://play.google.com/store/apps/details?id=com.ezay.foodshare"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="hidden md:inline-flex items-center justify-center rounded-full bg-blue-600 px-5 py-2.5 text-sm font-semibold text-white transition-transform duration-200 hover:scale-105 hover:bg-blue-700"
+>
+  Ladda ner
+</a>
 
         {/* Mobile toggle */}
         <button
@@ -83,12 +85,13 @@ export default function Navbar() {
             ))}
             <li>
               <a
-                href="#ladda-ner"
-                onClick={() => setOpen(false)}
-                className="mt-2 inline-flex w-full items-center justify-center rounded-full bg-blue-600 px-5 py-3 text-sm font-semibold text-white hover:bg-blue-700"
-              >
-                Ladda ner
-              </a>
+  href="https://play.google.com/store/apps/details?id=com.ezay.foodshare"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="mt-2 inline-flex w-full items-center justify-center rounded-full bg-blue-600 px-5 py-3 text-sm font-semibold text-white hover:bg-blue-700"
+>
+  Ladda ner
+</a>
             </li>
           </ul>
         </div>

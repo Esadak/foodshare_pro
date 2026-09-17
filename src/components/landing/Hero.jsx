@@ -22,12 +22,14 @@ export default function Hero({ heroImage }) {
 
           <div id="ladda-ner" className="mt-8 flex flex-col sm:flex-row items-center gap-4 justify-center md:justify-start">
             <a
-              href="#"
-              className="inline-flex items-center gap-2 rounded-full bg-primary px-7 py-3.5 text-base font-semibold text-primary-foreground transition-transform duration-200 hover:scale-105 hover:brightness-110"
-            >
-              <Download className="w-5 h-5" />
-              Ladda ner appen
-            </a>
+  href="https://play.google.com/store/apps/details?id=com.ezay.foodshare"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="inline-flex items-center gap-2 rounded-full bg-primary px-7 py-3.5 text-base font-semibold text-primary-foreground transition-transform duration-200 hover:scale-105 hover:brightness-110"
+>
+  <Download className="w-5 h-5" />
+  Ladda ner appen
+</a>
           </div>
           <p className="mt-3 text-sm text-muted-foreground">Tillgänglig på Google Play</p>
         </div>
