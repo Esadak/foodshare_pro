@@ -13,111 +13,132 @@ export default function Terms() {
       </header>
 
       <main className="mx-auto max-w-4xl px-5 sm:px-8 py-12 sm:py-16">
-        <h1 className="text-3xl sm:text-4xl font-bold text-white mb-2">Terms of Service for FoodShare</h1>
+        <h1 className="text-3xl sm:text-4xl font-bold text-white mb-2">Terms of Service</h1>
         <p className="text-muted-foreground mb-10">Last updated: September 15, 2026</p>
 
         <div className="space-y-8 text-gray-300 leading-relaxed">
           <section>
             <h2 className="text-xl font-semibold text-white mb-3">1. General</h2>
-            <p>These Terms of Service ("Terms") apply to your use of the FoodShare app and website foodshare.se ("the Service"). By creating an account or using the Service, you agree to these Terms.</p>
-            <p className="mt-2">If you do not accept the Terms, you may not use the Service.</p>
+            <p>These Terms of Service ("Terms") govern your access to and use of the FoodShare mobile application and website (the "Service"). By creating an account or using the Service, you agree to be bound by these Terms.</p>
+            <p className="mt-2">If you do not accept these Terms, you may not use the Service.</p>
           </section>
 
           <section>
             <h2 className="text-xl font-semibold text-white mb-3">2. About the Service</h2>
-            <p>FoodShare is a platform that connects home chefs ("Chefs") with people who want to buy home-cooked food ("Buyers"). FoodShare is solely an intermediary platform and is not a party to the agreement between the Chef and the Buyer.</p>
+            <p>FoodShare is a technology platform that enables users to connect with each other and share information about homemade food. FoodShare acts solely as an intermediary platform and is not a party to any agreement, transaction, or interaction between users.</p>
+            <p className="mt-2">FoodShare does not prepare, handle, store, inspect, or sell any food. Any food-related interaction, transaction, or agreement is solely between the users involved.</p>
           </section>
 
           <section>
             <h2 className="text-xl font-semibold text-white mb-3">3. Account and Registration</h2>
             <ul className="list-disc pl-5 space-y-2">
-              <li><strong>Age:</strong> You must be at least 13 years old to use the Service. If you are under 18, you must have parental consent.</li>
-              <li><strong>Accurate Information:</strong> You are responsible for ensuring all information you provide is accurate and up to date.</li>
-              <li><strong>Account Security:</strong> You are responsible for keeping your password secret. Notify us immediately of any suspected unauthorized access.</li>
-              <li><strong>One Account Per Person:</strong> You may not create multiple accounts to circumvent rules.</li>
+              <li><strong>Age:</strong> You must be at least 13 years old to use the Service, or the minimum age required in your jurisdiction. If you are under 18, you must have permission from a parent or legal guardian.</li>
+              <li><strong>Accurate Information:</strong> You are responsible for ensuring that all information you provide is accurate, current, and complete.</li>
+              <li><strong>Account Security:</strong> You are responsible for maintaining the confidentiality of your account credentials. Notify us immediately if you suspect unauthorized access.</li>
+              <li><strong>One Account Per Person:</strong> You may not create multiple accounts to circumvent rules or restrictions.</li>
             </ul>
           </section>
 
           <section>
-            <h2 className="text-xl font-semibold text-white mb-3">4. Chef Responsibilities</h2>
-            <p>As a Chef, you are responsible for:</p>
+            <h2 className="text-xl font-semibold text-white mb-3">4. User Responsibilities</h2>
+            <p>You are solely responsible for your use of the Service, including any content you post, any interaction you have with other users, and compliance with all laws and regulations that apply to you.</p>
+
+            <h3 className="text-lg font-medium text-white mt-4 mb-2">4.1 If you offer food through the Service</h3>
+            <p>If you use the Service to offer, share, or make food available to others, you are solely responsible for:</p>
             <ul className="list-disc pl-5 mt-2 space-y-1">
-              <li>Ensuring all food is safe to eat and prepared according to Swedish food safety regulations</li>
-              <li>Providing accurate information about ingredients and allergens</li>
-              <li>Stating prices and portions correctly</li>
-              <li>Fulfilling your tax obligations</li>
-              <li>Having necessary permits for food handling (if required)</li>
+              <li>Ensuring that all food is safe, properly prepared, and handled in accordance with applicable food safety laws and regulations in your jurisdiction</li>
+              <li>Providing accurate and complete information about ingredients, allergens, and preparation methods</li>
+              <li>Complying with all applicable registration, licensing, tax, and reporting obligations</li>
+              <li>Obtaining any permits or authorizations required for your activities</li>
+              <li>Ensuring that your offerings do not violate any applicable law</li>
             </ul>
-            <p className="mt-3">Chefs may not sell prohibited/illegal food, food that does not meet safety standards, alcohol without a permit, or food with misleading descriptions.</p>
+
+            <h3 className="text-lg font-medium text-white mt-4 mb-2">4.2 If you obtain food through the Service</h3>
+            <p>If you use the Service to obtain food from other users, you are solely responsible for:</p>
+            <ul className="list-disc pl-5 mt-2 space-y-1">
+              <li>Providing accurate contact information</li>
+              <li>Complying with any agreements you make with other users</li>
+              <li>Communicating any allergies, dietary restrictions, or special requirements directly to the other user</li>
+              <li>Treating other users with respect</li>
+              <li>Reporting any concerns to us</li>
+            </ul>
           </section>
 
           <section>
-            <h2 className="text-xl font-semibold text-white mb-3">5. Buyer Responsibilities</h2>
-            <p>As a Buyer, you are responsible for providing accurate contact information, picking up the food at the agreed time, paying as agreed, treating Chefs with respect, and reporting any issues to us.</p>
-          </section>
-
-          <section>
-            <h2 className="text-xl font-semibold text-white mb-3">6. Orders and Payment</h2>
+            <h2 className="text-xl font-semibold text-white mb-3">5. Orders and Payments</h2>
             <ul className="list-disc pl-5 space-y-2">
-              <li><strong>Order:</strong> When you place an order, you enter into an agreement directly with the Chef.</li>
-              <li><strong>Payment:</strong> Payment currently occurs directly between the Buyer and the Chef (cash or Swish). FoodShare does not handle payments.</li>
-              <li><strong>Cancellation:</strong> Cancellations are made by agreement between the Buyer and the Chef.</li>
-              <li><strong>Disputes:</strong> Any disputes between Buyers and Chefs should be resolved directly between the parties. FoodShare may assist but is not liable.</li>
+              <li><strong>Agreements Between Users:</strong> Any agreement, transaction, or arrangement is made directly between the users involved. FoodShare is not a party to these agreements.</li>
+              <li><strong>Payments:</strong> FoodShare does not currently process payments. Any payment arrangement is made directly between users and is their sole responsibility.</li>
+              <li><strong>Cancellations and Disputes:</strong> Any cancellations, refunds, or disputes must be resolved directly between the users involved. FoodShare may, at its sole discretion, assist with communication but is under no obligation to do so and assumes no liability.</li>
             </ul>
           </section>
 
           <section>
-            <h2 className="text-xl font-semibold text-white mb-3">7. Prohibited Behavior</h2>
-            <p>You may not use the Service for illegal purposes, harass or threaten other users, publish false information, attempt to hack the Service, send spam, or sell/transfer your account.</p>
+            <h2 className="text-xl font-semibold text-white mb-3">6. Prohibited Behavior</h2>
+            <p>You agree not to:</p>
+            <ul className="list-disc pl-5 mt-2 space-y-1">
+              <li>Use the Service for any unlawful purpose</li>
+              <li>Harass, threaten, or harm other users</li>
+              <li>Post false, misleading, or deceptive information</li>
+              <li>Attempt to gain unauthorized access to the Service or other users' accounts</li>
+              <li>Send spam or unauthorized advertising</li>
+              <li>Sell, transfer, or share your account with others</li>
+              <li>Violate any applicable laws or regulations</li>
+            </ul>
+          </section>
+
+          <section>
+            <h2 className="text-xl font-semibold text-white mb-3">7. User-Generated Content and Reporting</h2>
+            <p>You are solely responsible for any content you upload, post, or share through the Service. You must not post content that is unlawful, misleading, defamatory, infringing, or otherwise harmful.</p>
+            <p className="mt-2">If you encounter content that you believe violates these Terms or applicable law, you can report it through the app or by contacting us at foodshare.service@gmail.com. We review reports and may remove content or suspend accounts where we deem appropriate.</p>
           </section>
 
           <section>
             <h2 className="text-xl font-semibold text-white mb-3">8. Intellectual Property</h2>
             <ul className="list-disc pl-5 space-y-2">
-              <li><strong>Our Property:</strong> FoodShare owns all rights to the Service, logo, and code.</li>
-              <li><strong>Your Content:</strong> You retain rights to the content you upload (images, descriptions). By uploading, you grant us a non-exclusive license to display it within the Service.</li>
+              <li><strong>Our Property:</strong> FoodShare owns all rights, title, and interest in the Service, including its design, logo, and code.</li>
+              <li><strong>Your Content:</strong> You retain ownership of the content you upload. By uploading content, you grant FoodShare a non-exclusive, worldwide, royalty-free license to display, distribute, and use that content within the Service.</li>
             </ul>
           </section>
 
           <section>
-            <h2 className="text-xl font-semibold text-white mb-3">9. Limitation of Liability</h2>
+            <h2 className="text-xl font-semibold text-white mb-3">9. Disclaimer and Limitation of Liability</h2>
             <ul className="list-disc pl-5 space-y-2">
-              <li><strong>Platform Role:</strong> FoodShare is solely an intermediary. We are not liable for food quality, safety, or taste, user behavior, damages during meetings, delays, or financial losses.</li>
-              <li><strong>Maximum Liability:</strong> Our maximum liability to you is limited to 1,000 SEK.</li>
-              <li><strong>Force Majeure:</strong> We are not liable for obstacles beyond our control (natural disasters, war, pandemics, etc.).</li>
+              <li><strong>Platform Role:</strong> FoodShare is solely a technology platform. We do not prepare, inspect, or verify any food, and we do not verify the identity, qualifications, or claims of any user.</li>
+              <li><strong>No Warranties:</strong> The Service is provided "as is" and "as available" without warranties of any kind, whether express or implied.</li>
+              <li><strong>Limitation of Liability:</strong> To the maximum extent permitted by applicable law, FoodShare shall not be liable for any indirect, incidental, special, consequential, or punitive damages, or any loss arising from your use of the Service or interactions with other users. Nothing in these Terms excludes or limits liability that cannot be excluded or limited under applicable law.</li>
+              <li><strong>Force Majeure:</strong> We are not liable for any failure or delay caused by events beyond our reasonable control.</li>
             </ul>
           </section>
 
           <section>
             <h2 className="text-xl font-semibold text-white mb-3">10. Account Suspension and Termination</h2>
             <ul className="list-disc pl-5 space-y-2">
-              <li><strong>By Us:</strong> We may suspend or delete your account if you violate the Terms, without prior notice.</li>
-              <li><strong>By You:</strong> You can delete your account at any time via the app settings.</li>
-              <li><strong>After Termination:</strong> Certain data is retained by law (e.g., accounting) even after account closure.</li>
+              <li><strong>By Us:</strong> We may suspend or terminate your account if you violate these Terms or applicable law, with or without prior notice.</li>
+              <li><strong>By You:</strong> You may request deletion of your account at any time. Instructions are available on our{" "}
+                <a href="/delete-account" className="text-primary hover:underline">Delete Account</a>{" "}page.</li>
+              <li><strong>After Termination:</strong> Certain data may be retained where required by law (for example, accounting or legal records), for the required retention period.</li>
             </ul>
           </section>
 
           <section>
             <h2 className="text-xl font-semibold text-white mb-3">11. Changes to the Terms</h2>
-            <p>We may update these Terms. For significant changes, we will notify you via the app or email at least 30 days in advance. Continued use implies acceptance of the new Terms.</p>
+            <p>We may update these Terms from time to time. If we make significant changes, we will notify you through the app or by email where required. Continued use of the Service after changes take effect constitutes acceptance of the updated Terms.</p>
           </section>
 
           <section>
             <h2 className="text-xl font-semibold text-white mb-3">12. Governing Law and Dispute Resolution</h2>
-            <ul className="list-disc pl-5 space-y-2">
-              <li><strong>Swedish Law:</strong> These Terms are governed by Swedish law.</li>
-              <li><strong>Dispute Resolution:</strong> Disputes should first be resolved through negotiation. If no solution is reached, the dispute may be settled by a Swedish court.</li>
-              <li><strong>Consumer Rights:</strong> Nothing in these Terms limits your rights under Swedish consumer protection laws.</li>
-            </ul>
+            <p>These Terms are governed by the laws of Sweden, without regard to its conflict of law principles. Any dispute arising out of or relating to these Terms or the Service shall be subject to the exclusive jurisdiction of the courts of Sweden, unless mandatory consumer protection laws in your country of residence provide otherwise.</p>
+            <p className="mt-2">Nothing in these Terms limits any rights you may have under mandatory consumer protection laws in your jurisdiction.</p>
           </section>
 
           <section>
             <h2 className="text-xl font-semibold text-white mb-3">13. Contact</h2>
-            <p>For questions about these Terms:</p>
+            <p>For questions about these Terms, please contact us:</p>
             <ul className="list-disc pl-5 mt-2 space-y-1">
-              <li><strong>Email:</strong> legal@foodshare.se</li>
+              <li><strong>Email:</strong> foodshare.service@gmail.com</li>
               <li><strong>Website:</strong> https://foodshare.se</li>
-              <li><strong>Support:</strong> support@foodshare.se</li>
+              <li><strong>Support:</strong> foodshare.service@gmail.com</li>
             </ul>
           </section>
         </div>
