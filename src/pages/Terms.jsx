@@ -4,130 +4,120 @@ import { ArrowLeft } from "lucide-react";
 export default function Terms() {
   return (
     <div className="min-h-screen bg-background text-foreground">
-      {/* Enkel header med tillbakalänk */}
       <header className="border-b border-border bg-background/80 backdrop-blur-md sticky top-0 z-50">
         <div className="mx-auto max-w-4xl px-5 sm:px-8 h-16 flex items-center">
-          <a 
-            href="/" 
-            className="flex items-center gap-2 text-muted-foreground hover:text-white transition-colors text-sm font-medium"
-          >
-            <ArrowLeft className="w-4 h-4" />
-            Tillbaka till startsidan
+          <a href="/" className="flex items-center gap-2 text-muted-foreground hover:text-white transition-colors text-sm font-medium">
+            <ArrowLeft className="w-4 h-4" /> Back to Home
           </a>
         </div>
       </header>
 
-      {/* Huvudinnehåll */}
       <main className="mx-auto max-w-4xl px-5 sm:px-8 py-12 sm:py-16">
-        <h1 className="text-3xl sm:text-4xl font-bold text-white mb-2">
-          Användarvillkor för FoodShare Sweden
-        </h1>
-        <p className="text-muted-foreground mb-10">
-          Senast uppdaterad: 15 september 2026
-        </p>
+        <h1 className="text-3xl sm:text-4xl font-bold text-white mb-2">Terms of Service for FoodShare</h1>
+        <p className="text-muted-foreground mb-10">Last updated: September 15, 2026</p>
 
         <div className="space-y-8 text-gray-300 leading-relaxed">
           <section>
-            <h2 className="text-xl font-semibold text-white mb-3">1. Allmänt</h2>
-            <p>Dessa användarvillkor ("Villkoren") gäller för din användning av FoodShare Sweden-appen och webbplatsen foodshare.se ("Tjänsten"). Genom att skapa ett konto eller använda Tjänsten godkänner du dessa Villkor.</p>
-            <p className="mt-2">Om du inte accepterar Villkoren får du inte använda Tjänsten.</p>
+            <h2 className="text-xl font-semibold text-white mb-3">1. General</h2>
+            <p>These Terms of Service ("Terms") apply to your use of the FoodShare app and website foodshare.se ("the Service"). By creating an account or using the Service, you agree to these Terms.</p>
+            <p className="mt-2">If you do not accept the Terms, you may not use the Service.</p>
           </section>
 
           <section>
-            <h2 className="text-xl font-semibold text-white mb-3">2. Om Tjänsten</h2>
-            <p>FoodShare Sweden är en plattform som kopplar samman hemmakockar ("Kockar") med personer som vill köpa hemlagad mat ("Köpare"). FoodShare Sweden är endast en förmedlande plattform och är inte part i avtalet mellan Kock och Köpare.</p>
+            <h2 className="text-xl font-semibold text-white mb-3">2. About the Service</h2>
+            <p>FoodShare is a platform that connects home chefs ("Chefs") with people who want to buy home-cooked food ("Buyers"). FoodShare is solely an intermediary platform and is not a party to the agreement between the Chef and the Buyer.</p>
           </section>
 
           <section>
-            <h2 className="text-xl font-semibold text-white mb-3">3. Konto och registrering</h2>
+            <h2 className="text-xl font-semibold text-white mb-3">3. Account and Registration</h2>
             <ul className="list-disc pl-5 space-y-2">
-              <li><strong>Ålder:</strong> Du måste vara minst 13 år för att använda Tjänsten. Om du är under 18 år måste du ha vårdnadshavares tillstånd.</li>
-              <li><strong>Korrekt information:</strong> Du ansvarar för att all information du anger är korrekt och uppdaterad.</li>
-              <li><strong>Kontosäkerhet:</strong> Du ansvarar för att hålla ditt lösenord hemligt. Meddela oss omedelbart vid misstänkt obehörig åtkomst.</li>
-              <li><strong>Ett konto per person:</strong> Du får inte skapa flera konton för att kringgå regler.</li>
+              <li><strong>Age:</strong> You must be at least 13 years old to use the Service. If you are under 18, you must have parental consent.</li>
+              <li><strong>Accurate Information:</strong> You are responsible for ensuring all information you provide is accurate and up to date.</li>
+              <li><strong>Account Security:</strong> You are responsible for keeping your password secret. Notify us immediately of any suspected unauthorized access.</li>
+              <li><strong>One Account Per Person:</strong> You may not create multiple accounts to circumvent rules.</li>
             </ul>
           </section>
 
           <section>
-            <h2 className="text-xl font-semibold text-white mb-3">4. Kockars ansvar</h2>
-            <p>Som Kock ansvarar du för:</p>
+            <h2 className="text-xl font-semibold text-white mb-3">4. Chef Responsibilities</h2>
+            <p>As a Chef, you are responsible for:</p>
             <ul className="list-disc pl-5 mt-2 space-y-1">
-              <li>Att all mat är säker att äta och tillagad enligt svenska livsmedelsregler</li>
-              <li>Att korrekt information om ingredienser och allergener anges</li>
-              <li>Att priser och portioner är korrekt angivna</li>
-              <li>Att uppfylla dina skattemässiga skyldigheter</li>
-              <li>Att ha nödvändiga tillstånd för livsmedelshantering (vid behov)</li>
+              <li>Ensuring all food is safe to eat and prepared according to Swedish food safety regulations</li>
+              <li>Providing accurate information about ingredients and allergens</li>
+              <li>Stating prices and portions correctly</li>
+              <li>Fulfilling your tax obligations</li>
+              <li>Having necessary permits for food handling (if required)</li>
             </ul>
-            <p className="mt-3">Kockar får inte sälja otillåten/olaglig mat, mat som inte uppfyller livsmedelssäkerhetskrav, alkohol utan tillstånd, eller mat med vilseledande beskrivning.</p>
+            <p className="mt-3">Chefs may not sell prohibited/illegal food, food that does not meet safety standards, alcohol without a permit, or food with misleading descriptions.</p>
           </section>
 
           <section>
-            <h2 className="text-xl font-semibold text-white mb-3">5. Köpares ansvar</h2>
-            <p>Som Köpare ansvarar du för att ge korrekt kontaktinformation, hämta maten vid avtalad tid, betala enligt överenskommelse, behandla Kockar med respekt, och rapportera eventuella problem till oss.</p>
+            <h2 className="text-xl font-semibold text-white mb-3">5. Buyer Responsibilities</h2>
+            <p>As a Buyer, you are responsible for providing accurate contact information, picking up the food at the agreed time, paying as agreed, treating Chefs with respect, and reporting any issues to us.</p>
           </section>
 
           <section>
-            <h2 className="text-xl font-semibold text-white mb-3">6. Beställningar och betalning</h2>
+            <h2 className="text-xl font-semibold text-white mb-3">6. Orders and Payment</h2>
             <ul className="list-disc pl-5 space-y-2">
-              <li><strong>Beställning:</strong> När du gör en beställning ingår du ett avtal direkt med Kocken.</li>
-              <li><strong>Betalning:</strong> Betalning sker i nuläget direkt mellan Köpare och Kock (kontant eller Swish). FoodShare Sweden hanterar inte betalningar.</li>
-              <li><strong>Avbokning:</strong> Avbokning sker enligt överenskommelse mellan Köpare och Kock.</li>
-              <li><strong>Tvister:</strong> Eventuella tvister mellan Köpare och Kock ska lösas direkt mellan parterna. FoodShare Sweden kan assistera men är inte ansvarig.</li>
+              <li><strong>Order:</strong> When you place an order, you enter into an agreement directly with the Chef.</li>
+              <li><strong>Payment:</strong> Payment currently occurs directly between the Buyer and the Chef (cash or Swish). FoodShare does not handle payments.</li>
+              <li><strong>Cancellation:</strong> Cancellations are made by agreement between the Buyer and the Chef.</li>
+              <li><strong>Disputes:</strong> Any disputes between Buyers and Chefs should be resolved directly between the parties. FoodShare may assist but is not liable.</li>
             </ul>
           </section>
 
           <section>
-            <h2 className="text-xl font-semibold text-white mb-3">7. Förbjudet beteende</h2>
-            <p>Du får inte använda Tjänsten för olagliga ändamål, trakassera eller hota andra användare, publicera falsk information, försöka hacka Tjänsten, skicka spam, eller sälja/överföra ditt konto.</p>
+            <h2 className="text-xl font-semibold text-white mb-3">7. Prohibited Behavior</h2>
+            <p>You may not use the Service for illegal purposes, harass or threaten other users, publish false information, attempt to hack the Service, send spam, or sell/transfer your account.</p>
           </section>
 
           <section>
-            <h2 className="text-xl font-semibold text-white mb-3">8. Immateriella rättigheter</h2>
+            <h2 className="text-xl font-semibold text-white mb-3">8. Intellectual Property</h2>
             <ul className="list-disc pl-5 space-y-2">
-              <li><strong>Vår egendom:</strong> FoodShare Sweden äger alla rättigheter till Tjänsten, logotypen och koden.</li>
-              <li><strong>Ditt innehåll:</strong> Du behåller rättigheterna till det innehåll du laddar upp (bilder, beskrivningar). Genom att ladda upp ger du oss en icke-exklusiv licens att visa det inom Tjänsten.</li>
+              <li><strong>Our Property:</strong> FoodShare owns all rights to the Service, logo, and code.</li>
+              <li><strong>Your Content:</strong> You retain rights to the content you upload (images, descriptions). By uploading, you grant us a non-exclusive license to display it within the Service.</li>
             </ul>
           </section>
 
           <section>
-            <h2 className="text-xl font-semibold text-white mb-3">9. Ansvarsbegränsning</h2>
+            <h2 className="text-xl font-semibold text-white mb-3">9. Limitation of Liability</h2>
             <ul className="list-disc pl-5 space-y-2">
-              <li><strong>Plattformens roll:</strong> FoodShare Sweden är endast en förmedlande plattform. Vi ansvarar inte för matens kvalitet, säkerhet eller smak, användares beteende, skador vid möten, förseningar eller ekonomiska förluster.</li>
-              <li><strong>Maximalt ansvar:</strong> Vårt maximala ansvar gentemot dig är begränsat till 1 000 SEK.</li>
-              <li><strong>Force majeure:</strong> Vi ansvarar inte för hinder utanför vår kontroll (naturkatastrofer, krig, pandemier etc.).</li>
+              <li><strong>Platform Role:</strong> FoodShare is solely an intermediary. We are not liable for food quality, safety, or taste, user behavior, damages during meetings, delays, or financial losses.</li>
+              <li><strong>Maximum Liability:</strong> Our maximum liability to you is limited to 1,000 SEK.</li>
+              <li><strong>Force Majeure:</strong> We are not liable for obstacles beyond our control (natural disasters, war, pandemics, etc.).</li>
             </ul>
           </section>
 
           <section>
-            <h2 className="text-xl font-semibold text-white mb-3">10. Kontosuspendering och avslutning</h2>
+            <h2 className="text-xl font-semibold text-white mb-3">10. Account Suspension and Termination</h2>
             <ul className="list-disc pl-5 space-y-2">
-              <li><strong>Av oss:</strong> Vi kan stänga av eller radera ditt konto om du bryter mot Villkoren, utan förvarning.</li>
-              <li><strong>Av dig:</strong> Du kan när som helst radera ditt konto via appens inställningar.</li>
-              <li><strong>Efter avslutning:</strong> Vissa data sparas enligt lag (t.ex. bokföring) även efter kontots stängning.</li>
+              <li><strong>By Us:</strong> We may suspend or delete your account if you violate the Terms, without prior notice.</li>
+              <li><strong>By You:</strong> You can delete your account at any time via the app settings.</li>
+              <li><strong>After Termination:</strong> Certain data is retained by law (e.g., accounting) even after account closure.</li>
             </ul>
           </section>
 
           <section>
-            <h2 className="text-xl font-semibold text-white mb-3">11. Ändringar i Villkoren</h2>
-            <p>Vi kan uppdatera dessa Villkor. Vid väsentliga ändringar meddelar vi dig via appen eller e-post minst 30 dagar i förväg. Fortsatt användning innebär godkännande av de nya Villkoren.</p>
+            <h2 className="text-xl font-semibold text-white mb-3">11. Changes to the Terms</h2>
+            <p>We may update these Terms. For significant changes, we will notify you via the app or email at least 30 days in advance. Continued use implies acceptance of the new Terms.</p>
           </section>
 
           <section>
-            <h2 className="text-xl font-semibold text-white mb-3">12. Tillämplig lag och tvistlösning</h2>
+            <h2 className="text-xl font-semibold text-white mb-3">12. Governing Law and Dispute Resolution</h2>
             <ul className="list-disc pl-5 space-y-2">
-              <li><strong>Svensk lag:</strong> Dessa Villkor regleras av svensk lag.</li>
-              <li><strong>Tvistlösning:</strong> Tvister ska i första hand lösas genom förhandling. Om ingen lösning nås kan tvisten avgöras av svensk domstol.</li>
-              <li><strong>Konsumenträttigheter:</strong> Ingenting i dessa Villkor begränsar dina rättigheter enligt svensk konsumentlagstiftning.</li>
+              <li><strong>Swedish Law:</strong> These Terms are governed by Swedish law.</li>
+              <li><strong>Dispute Resolution:</strong> Disputes should first be resolved through negotiation. If no solution is reached, the dispute may be settled by a Swedish court.</li>
+              <li><strong>Consumer Rights:</strong> Nothing in these Terms limits your rights under Swedish consumer protection laws.</li>
             </ul>
           </section>
 
           <section>
-            <h2 className="text-xl font-semibold text-white mb-3">13. Kontakt</h2>
-            <p>För frågor om dessa Villkor:</p>
+            <h2 className="text-xl font-semibold text-white mb-3">13. Contact</h2>
+            <p>For questions about these Terms:</p>
             <ul className="list-disc pl-5 mt-2 space-y-1">
-              <li><strong>E-post:</strong> foodshare.service@gmail.com</li>
-              <li><strong>Webbplats:</strong> https://foodshare.se</li>
-              <li><strong>Support:</strong> foodshare.service@gmail.com</li>
+              <li><strong>Email:</strong> legal@foodshare.se</li>
+              <li><strong>Website:</strong> https://foodshare.se</li>
+              <li><strong>Support:</strong> support@foodshare.se</li>
             </ul>
           </section>
         </div>

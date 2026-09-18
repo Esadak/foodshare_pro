@@ -12,7 +12,7 @@ export default function Screenshots({ images = [] }) {
     <section className="py-16 sm:py-20">
       <div className="mx-auto max-w-5xl px-4 sm:px-6">
         <h2 className="text-2xl sm:text-3xl font-bold text-white text-center mb-12">
-          Se appen i aktion
+          See the app in action
         </h2>
 
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 justify-items-center">
@@ -25,7 +25,7 @@ export default function Screenshots({ images = [] }) {
                 <img 
                   src={src} 
                   className="w-full h-full object-cover" 
-                  alt={`Skärmdump ${i + 1}`} 
+                  alt={`App screenshot ${i + 1}`} 
                 />
               </div>
             </div>

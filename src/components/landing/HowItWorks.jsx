@@ -1,18 +1,33 @@
 import React from "react";
+import { Search, ShoppingCart, Utensils } from "lucide-react";
 
-// Informational 3-step guide explaining the user journey (static text).
 const steps = [
-  { num: "1", title: "Skapa konto", text: "Registrera dig gratis på några minuter." },
-  { num: "2", title: "Utforska eller lägg ut", text: "Hitta god mat nära dig eller börja sälja din egen mat." },
-  { num: "3", title: "Njut av maten", text: "Hämta din beställning och njut av hemlagad mat." },
+  { 
+    num: "1", 
+    icon: <Search className="w-6 h-6" />,
+    title: "Discover Meals", 
+    text: "Browse through a variety of home-cooked dishes offered by local chefs near you." 
+  },
+  { 
+    num: "2", 
+    icon: <ShoppingCart className="w-6 h-6" />,
+    title: "Order Easily", 
+    text: "Select your favorite meals, customize your order, and connect directly with the chef." 
+  },
+  { 
+    num: "3", 
+    icon: <Utensils className="w-6 h-6" />,
+    title: "Enjoy Your Food", 
+    text: "Pick up your fresh, delicious meal or arrange delivery, ready to be enjoyed." 
+  },
 ];
 
 export default function HowItWorks() {
   return (
-    <section id="hur-det-fungerar" className="py-20 sm:py-28 bg-secondary/40">
+    <section id="how-it-works" className="py-20 sm:py-28 bg-secondary/40">
       <div className="mx-auto max-w-6xl px-5 sm:px-8">
         <h2 className="text-3xl sm:text-4xl font-bold text-white text-center">
-          Hur det fungerar
+          How it works
         </h2>
 
         <div className="mt-14 grid gap-8 md:grid-cols-3 relative">
